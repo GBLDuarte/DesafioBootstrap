@@ -6,6 +6,16 @@
     background-color: rgba(41, 41, 41, 0.815);
 }
 
+.navbar-nav {
+    width: 35%;
+    justify-content: space-evenly
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
 .nav-link {
     color: yellow;
 }
+
