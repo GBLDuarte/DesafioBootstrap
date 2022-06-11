@@ -1,0 +1,11 @@
+.container-fluid img {
+    width: 100px;
+}
+
+.navbar {
+    background-color: rgba(41, 41, 41, 0.815);
+}
+
+.nav-link {
+    color: yellow;
+}
