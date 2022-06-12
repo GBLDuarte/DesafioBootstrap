@@ -1,9 +1,26 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    font-family: 'Cardo', serif;
+}
+
+/* Header */
+
 .container-fluid img {
     width: 100px;
 }
 
 .navbar {
-    background-color: rgba(41, 41, 41, 0.815);
+    background-color: rgba(19, 19, 19, 0.897);
 }
 
 .navbar-nav {
@@ -17,5 +34,35 @@
 
 .nav-link {
     color: yellow;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
 }
 
+/* Contenido Index */
+
+.container {
+    text-align: center;
+}
+
+/* Footer */
+
+.footer .container-fluid {
+    background-color: rgba(15, 15, 15, 0.466);
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    height: 10vh;
+}
+
+.container-fluid p {
+    margin: 0;
+}
+
+.redes ul {
+    list-style: none;
+    display: flex;
+}
+
+.redes i {
+    font-size: 30px
+}
