@@ -72,3 +72,31 @@ body {
     font-size: 30px;
     color: yellow;
 }
+
+/* Galeria */
+
+.grid {
+    display: grid;  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.titulosGaleria, .titulosCortes {
+    text-align: center;
+    margin: 1rem;
+}
+
+
+
+
+@media (max-width: 576px){
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid img {
+        width: 85%;
+    }
+}
