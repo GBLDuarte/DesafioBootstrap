@@ -94,6 +94,12 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+/* Acordion nosotros */
+
+.accordion-button:not(.collapsed) {
+    background-color:rgba(19, 19, 19, 0.897);
+    color: white;
+}
 
 
 
